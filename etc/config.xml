@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Irishtitan_News>
+        <Namespace_News>
             <version>0.1.0</version>
-        </Irishtitan_News>
+        </Namespace_News>
     </modules>
     <frontend>
         <routers>
             <news>
                 <use>standard</use>
                 <args>
-                    <module>Irishtitan_News</module>
+                    <module>Namespace_News</module>
                     <frontName>news</frontName>
                 </args>
             </news>
@@ -26,9 +26,9 @@
     <adminhtml>
         <layout>
             <updates>
-                <irishtitan_news>
+                <namespace_news>
                     <file>news.xml</file>
-                </irishtitan_news>
+                </namespace_news>
             </updates>
         </layout>
     </adminhtml>
@@ -37,14 +37,14 @@
             <news>
                 <use>admin</use>
                 <args>
-                    <module>Irishtitan_News</module>
+                    <module>Namespace_News</module>
                     <frontName>news</frontName>
                 </args>
             </news>
             <adminhtml>
                 <args>
                     <modules>
-                        <Irishtitan_News before="Mage_Adminhtml">Irishtitan_News_Adminhtml</Irishtitan_News>
+                        <Namespace_News before="Mage_Adminhtml">Namespace_News_Adminhtml</Namespace_News>
                     </modules>
                 </args>
             </adminhtml>
@@ -53,11 +53,11 @@
     <global>
         <models>
             <news>
-                <class>Irishtitan_News_Model</class>
+                <class>Namespace_News_Model</class>
                 <resourceModel>news_mysql4</resourceModel>
             </news>
             <news_mysql4>
-                <class>Irishtitan_News_Model_Mysql4</class>
+                <class>Namespace_News_Model_Mysql4</class>
                 <entities>
                     <news>
                         <table>rave_news</table>
@@ -68,7 +68,7 @@
         <resources>
             <news_setup>
                 <setup>
-                    <module>Irishtitan_News</module>
+                    <module>Namespace_News</module>
                 </setup>
                 <connection>
                     <use>core_setup</use>
@@ -87,12 +87,12 @@
         </resources>
         <blocks>
             <news>
-                <class>Irishtitan_News_Block</class>
+                <class>Namespace_News_Block</class>
             </news>
         </blocks>
         <helpers>
             <news>
-                <class>Irishtitan_News_Helper</class>
+                <class>Namespace_News_Helper</class>
             </news>
         </helpers>
     </global>

@@ -1,6 +1,6 @@
 <?php
 
-class Irishtitan_News_Model_News extends Mage_Core_Model_Abstract
+class Namespace_News_Model_News extends Mage_Core_Model_Abstract
 {
     public function _construct()
     {

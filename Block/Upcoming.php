@@ -1,6 +1,6 @@
 <?php
 
-class Irishtitan_News_Block_Upcoming extends Mage_Core_Block_Template
+class Namespace_News_Block_Upcoming extends Mage_Core_Block_Template
 {
     public function _construct() {
         parent::_construct();

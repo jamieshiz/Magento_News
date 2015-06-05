@@ -1,6 +1,6 @@
 <?php
 
-class Irishtitan_News_Block_Adminhtml_News_Edit_Form extends Mage_Adminhtml_Block_Widget_Form
+class Namespace_News_Block_Adminhtml_News_Edit_Form extends Mage_Adminhtml_Block_Widget_Form
 {
         protected function _prepareForm()
         {

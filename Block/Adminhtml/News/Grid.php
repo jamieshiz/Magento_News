@@ -1,6 +1,6 @@
 <?php
 
-class Irishtitan_News_Block_Adminhtml_News_Grid extends Mage_Adminhtml_Block_Widget_Grid
+class Namespace_News_Block_Adminhtml_News_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
     public function __construct()
     {

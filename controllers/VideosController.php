@@ -1,5 +1,5 @@
 <?php
-class Irishtitan_News_VideosController extends Mage_Core_Controller_Front_Action
+class Namespace_News_VideosController extends Mage_Core_Controller_Front_Action
 {
     public function indexAction() {
         $id = $this->getRequest()->getParam('id');
